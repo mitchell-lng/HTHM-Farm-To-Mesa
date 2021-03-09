@@ -47,11 +47,11 @@ export default {
 <style scoped>
 
 .icon {
-  max-width: 300px;
+  max-width: 120px;
 }
 
 .small-logo {
-  max-width: 100px;
+  max-width: 50px;
 }
 
 </style>

@@ -19,12 +19,12 @@
       </div>
 
       <div id="navbar" class="navbar-menu">
-        <a class="navbar-item" href="/">Home</a>
-        <a class="navbar-item" href="/aboutus">About Us</a>
-        <a class="navbar-item" href="/projects">Projects</a>
+        <router-link class="navbar-item" to="/">Home</router-link>
+        <router-link class="navbar-item" to="/aboutus">About Us</router-link>
+        <router-link class="navbar-item" to="/projects">Projects</router-link>
 
         <div class="navbar-end">
-          <a class="navbar-item" href="/gallery">Gallery</a>
+          <router-link class="navbar-item" to="/gallery">Gallery</router-link>
         </div>
       </div>
     </div>

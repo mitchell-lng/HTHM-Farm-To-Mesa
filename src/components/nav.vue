@@ -4,7 +4,7 @@
       <div class="navbar-brand">
         <a class="navbar-item" href="/">
           <figure class="mr-5 image">
-            <img class="icon" src="@/assets/icon.jpeg">
+            <img class="icon small-logo" src="@/assets/icon.jpeg">
           </figure>
           <figure class="image">
             <img class="icon" src="@/assets/F2M.png">
@@ -45,4 +45,13 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+
+.icon {
+  max-width: 300px;
+}
+
+.small-logo {
+  max-width: 100px;
+}
+
 </style>
